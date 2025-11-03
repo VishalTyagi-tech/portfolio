@@ -1,0 +1,127 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vishal Tyagi — Portfolio</title>
+  <meta name="description" content="Portfolio — Vishal Tyagi | MERN Stack Developer" />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">VT</div>
+        <div>
+          <div class="name">Vishal Tyagi</div>
+          <div class="subtitle">MERN Stack Developer</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-left">
+          <h1>Hi, I'm Vishal — a passionate MERN stack developer crafting modern web experiences.</h1>
+          <p>I’m currently pursuing B.Tech in Computer Science (3rd Year) from COER University. I love building scalable, user-friendly applications using the MERN stack and modern web technologies.</p>
+          <div class="hero-buttons">
+            <a class="cta" href="#projects">View Projects</a>
+            <a class="secondary" href="resume.pdf" download>Download Resume</a>
+          </div>
+        </div>
+        <aside class="card profile">
+          <div class="avatar">VT</div>
+          <div class="meta">
+            <h3>Vishal Tyagi</h3>
+            <p>MERN Stack Developer</p>
+            <p class="muted">COER University · B.Tech CSE (3rd Year)</p>
+            <p><strong>Email:</strong> <a href="mailto:vt954100@gmail.com">vt954100@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:7819086948">7819086948</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/vishal-tyagi" target="_blank">linkedin.com/in/vishal-tyagi</a></p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project card fade-in">
+            <h4>TaskFlow</h4>
+            <p>Full-stack task manager with authentication and real-time updates.</p>
+            <p class="tech">Tech: MERN · Socket.IO · JWT</p>
+          </div>
+          <div class="project card fade-in">
+            <h4>ShopSphere</h4>
+            <p>MERN e-commerce app with Stripe payments and admin dashboard.</p>
+            <p class="tech">Tech: React · Node.js · Express · MongoDB</p>
+          </div>
+          <div class="project card fade-in">
+            <h4>ChatLink</h4>
+            <p>Real-time chat application with Socket.IO and JWT authentication.</p>
+            <p class="tech">Tech: Node.js · React · WebSocket</p>
+          </div>
+          <div class="project card fade-in">
+            <h4>EduVerse</h4>
+            <p>Online learning platform with video courses and progress tracking.</p>
+            <p class="tech">Tech: MERN · Firebase · Tailwind</p>
+          </div>
+          <div class="project card fade-in">
+            <h4>PortfolioPro</h4>
+            <p>Dynamic portfolio builder for developers to showcase work easily.</p>
+            <p class="tech">Tech: React · Firebase</p>
+          </div>
+          <div class="project card fade-in">
+            <h4>WeatherMate</h4>
+            <p>Responsive weather app fetching live data from external APIs.</p>
+            <p class="tech">Tech: HTML · CSS · JS · OpenWeather API</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+          <span class="skill">MongoDB</span>
+          <span class="skill">Express.js</span>
+          <span class="skill">React.js</span>
+          <span class="skill">Node.js</span>
+          <span class="skill">JavaScript (ES6+)</span>
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">Tailwind CSS</span>
+          <span class="skill">Firebase</span>
+          <span class="skill">Git / GitHub</span>
+          <span class="skill">REST APIs</span>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+          <input id="name" placeholder="Your name" required />
+          <input id="email" type="email" placeholder="Your email" required />
+          <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p class="muted">or email directly at <a href="mailto:vt954100@gmail.com">vt954100@gmail.com</a></p>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Vishal Tyagi — Built with ❤️ using HTML, CSS, and JavaScript.
+    </footer>
+  </div>
+  <script src="portfolio.js"></script>
+</body>
+</html>
+
+
+
